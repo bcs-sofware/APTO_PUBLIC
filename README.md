@@ -1,8 +1,8 @@
-# Advanced Performance Tuning for Oracle - Public Download page
-This is where the latest release of APTO will reside.
+<h1>Advanced Performance Tuning for Oracle - Public Download page</h1>
+<b>This is where the latest release of APTO will reside.</b>
 
-APTO Release notes:
-<br>---- v3.0-3.7
+<h2>APTO Release notes:</h2>
+<h3>v3.0-3.7</h3>
 <br>[ x ] Show all CPU perf reports 
 <br>[ x ] Use passwords in Database domain class
 <br>[ x ] Create alternate logins per DB
@@ -60,7 +60,7 @@ APTO Release notes:
 <br>[ x ] Also retrieve entire SQL when running explain (fetch from opdb)
 <br>[ x ] Fetch DB version from DB and place on main page
 <br>[ x ] Verify that dictionary read account has appropriate system privilege
-<br>----- v3.8
+<h3>v3.8</h3>
 <br>[ x ] Add logos to top sysevents and top sql by hour as well
 <br>[ x ] Limit top events by hour to events with wait > 0s
 <br>----- v3.9.1
