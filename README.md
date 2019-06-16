@@ -11,7 +11,8 @@
 <br>[ X ] Fixed performance issue with Exadata RAC databases during profiling - Samplecount should now work with 1000 samples again
 <br>
 <h3>v4.1_Build_462</h3>
-<br>[ X ] SQL-ID editor, to flag and update attributes about a SQL-ID manually / manage aliases tied [ X ] Cosmetic - removed 5 ‘-’ characters on explanatory comment block dividers
+<br>[ X ] SQL-ID editor, to flag and update attributes about a SQL-ID manually / manage aliases tied 
+<br>[ X ] Cosmetic - removed 5 ‘-’ characters on explanatory comment block dividers
 <br>[ X ] Cosmetic - Rearranged columns to show program/line before SQL on main report
 <br>to a specific SQL-ID (Same query has same SQL-ID across databases)
 <br>[ X ] Also shows function-based index expression columns on explain plan (DBA_IND_EXPRESSIONS)
