@@ -2,6 +2,116 @@
 <b>This is where the latest release of APTO will reside.</b>
 
 <h2>APTO Release notes:</h2>
+<h3>v4.2_Build_465</h3>
+<br>[ X ] Active sessions and session history now shows the hostname the session is coming from
+<br>[ X ] Environment Type role based access. Admin can see all environment types.
+<br>[ X ] Show version in footer on all pages, along with current date/time
+<br>[ X ] Monitoring page showing monitoring alert history 
+<h3>v4.2_Build_464</h3>
+<br>[ X ] Fixed performance issue with Exadata RAC databases during profiling - Samplecount should now work with 1000 samples again
+<br>
+<h3>v4.1_Build_462</h3>
+<br>[ X ] SQL-ID editor, to flag and update attributes about a SQL-ID manually / manage aliases tied [ X ] Cosmetic - removed 5 ‘-’ characters on explanatory comment block dividers
+<br>[ X ] Cosmetic - Rearranged columns to show program/line before SQL on main report
+<br>to a specific SQL-ID (Same query has same SQL-ID across databases)
+<br>[ X ] Also shows function-based index expression columns on explain plan (DBA_IND_EXPRESSIONS)
+<br>
+<h3>v4.0_Build_461</h3>
+<br>[ X ] Improved logging around autogeneration of the postgres DB, showing schema structures
+<br>
+<h3>v4.0_Build_455</h3>
+<br>[ X ] Introduce Monitoring Group (With one or more DBs)
+<br>[ X ] Monitoring - Custom rules implemented, allowing you to write your own SQL
+<br>[ X ] Monitoring - Notify DBAs for each DB triggering monitoring alerts
+<br>[ X ] Auto-create APTO_HIST tables
+<br>[ X ] Show sessions and processes allocation vs. max over time
+<br>
+<h3>v4.0_Build_454</h3>
+<br>[ X ] About page added with link to newest versions
+<br>[ X ] Show CPU(s) and executions in explain plan
+<br>[ X ] Added generation timestamp on all pages 
+<br>
+<h3>v4.0_Build_453</h3>
+<br>[ X ] Add tooltip descriptive text on how to analyze graphs in performance report
+<br>[ X ] Shows disable statements to disable the auto-task subsystem in healthcheck
+<br>[ X ] Cloud reporting (Central multi-tenancy cloud repository across clients) Cannot see realtime or explain plan
+<br>[ X ] Healthcheck also shows queries with full table scans / cartesian joins taking a lot of CPU
+<br>[ X ] Snapshot history of V$SESSION to drill active sessions during a certain hour
+<br>
+<h3>v3.20_Build_452</h3>
+<br>[ X ] Add default DB types with images for the commonly used ERPs and apps (EBS, PSFT, Siebel)
+<br>[ X ] Add OEM/Dev Tools CPU curve on second graph showing overhead CPU
+<br>[ X ] Cosmetic; Improved version numbering for build counting
+<br>
+<h3>v3.19</h3>
+<br>[ X ] Make RMAN details toggled to Admin view only as option, default No
+<br>[ X ] Secure RMAN details to check roleAdmin of current user if admin only option set
+<br>[ X ] Indicate cartesian joins on queries with red to help analysis in explain plan
+<br>[ X ] Show # of CPU seconds in last 24h per DB on summary page
+<br>
+<h3>v3.18</h3>
+<br>[ X ] In explain plan view for a SQL, show owner/name of code object, and line #
+<br>[ X ] DB Summary Page - Show if DB not in archivelog
+<br>[ X ] Add RMAN backup summary status to DB list showing failures/success last two weeks
+<br>[ X ] If V$RMAN_BACKUP_JOB_DETAILS contain failed jobs last two weeks, display warning
+<br>[ X ] if V$RMAN_BACKUP_JOB_DETAILS don’t contain successful INCR BACKUP in last two weeks, display warning
+<br>[ X ] Added SQL explain plan to current SQL in Active sessions view
+<br>[ X ] Cosmetic fixes on RMAN status colors
+<br>[ X ] Added detail button on RMAN status to show output in last two weeks from RMAN jobs
+<br>
+<h3>v3.17</h3>
+<br>[ x ] Added dbversion to database list on main page
+<br>[ x ] Fixed copyright year cosmetic issue (From 2016 => 2017)
+<br>[ x ] Fixed bug causing program to be blank on 12c
+<br>
+<h3>v3.16</h3>
+<br>[ x ] Bugfix on Edit Database Type
+<br>
+<h3>v3.15</h3>
+<br>[ x ] Made version that allows to connect to the Oracle DBs using different protocol than TCP
+<br>
+<h3>v3.14</h3>
+<br>[ x ] Added additional explain plan information, indexing and stats for tables involved in query
+<br>
+<h3>v3.13</h3>
+<br>[ x ] Show current indexing / table stats (DBA_IND_COLUMNS for a table explained)
+<br>[ x ] Bug; CLOBs showing as oracle.sql.CLOB@10fb4d95, will now show max 4000 characters
+<br>
+<h3>v3.12.0</h3>
+<br>[ x ] Improved logging in MailService, to see when emails are being sent or attempted sent
+<br>[ x ] Split common services into com.accenture.common to better enable reuse across assets
+<br>[ x ] Introduced Environment Types [DEV/TEST/QA/PROD]
+<br>
+
+<h3>v3.11.2</h3>
+<br>[ x ] Fixed performance issue with new outage filtering in postgres
+
+<h3>v3.11.1</h3>
+<br>[ x ] Removed ROLE management, not needed for this version
+<br>[ x ] Enhanced reports, no longer report first hour as huge numbers when there has been an outage in tool
+
+<h3>v3.11</h3>
+<br>[ x ] Show Almost expired pwd in healthcheck
+<br>[ x ] Remove USER_ROLE requirement, and change security to authenticated only
+<br>[ x ] Removed role management, only ROLE_ADMIN remains
+<br>[ x ] Added email option to control who receives the support emails when errors occur
+<br>[ x ] Added functionality to trigger snapshots in all databases
+<br>[ x ] Fixed bug in Enq: TM Contention extract in healthcheck
+
+<h3>v3.10.2</h3>
+<br>[ x ] Healthcheck page: With query to find missing foreign key indexes:
+<br>[ x ] Healthcheck show users with default passwords
+<br>[ x ] Fixed dependency on sys.user$ grant
+
+<h3>v3.9.1</h3>
+<br>[ x ] Fixed bug that sorts top wait events by hour incorrectly
+<br>[ x ] Fixed bug with sysmetric summary not being collected properly
+<br>[ x ] Set session timeout to 1hr
+
+<h3>v3.8</h3>
+<br>[ x ] Add logos to top sysevents and top sql by hour as well
+<br>[ x ] Limit top events by hour to events with wait > 0s
+
 <h3>v3.0-3.7</h3>
 <br>[ x ] Show all CPU perf reports 
 <br>[ x ] Use passwords in Database domain class
@@ -60,107 +170,3 @@
 <br>[ x ] Also retrieve entire SQL when running explain (fetch from opdb)
 <br>[ x ] Fetch DB version from DB and place on main page
 <br>[ x ] Verify that dictionary read account has appropriate system privilege
-<h3>v3.8</h3>
-<br>[ x ] Add logos to top sysevents and top sql by hour as well
-<br>[ x ] Limit top events by hour to events with wait > 0s
-<h3>v3.9.1</h3>
-<br>[ x ] Fixed bug that sorts top wait events by hour incorrectly
-<br>[ x ] Fixed bug with sysmetric summary not being collected properly
-<br>[ x ] Set session timeout to 1hr
-<h3>v3.10.2</h3>
-<br>[ x ] Healthcheck page: With query to find missing foreign key indexes:
-<br>[ x ] Healthcheck show users with default passwords
-<br>[ x ] Fixed dependency on sys.user$ grant
-<h3>v3.11</h3>
-<br>[ x ] Show Almost expired pwd in healthcheck
-<br>[ x ] Remove USER_ROLE requirement, and change security to authenticated only
-<br>[ x ] Removed role management, only ROLE_ADMIN remains
-<br>[ x ] Added email option to control who receives the support emails when errors occur
-<br>[ x ] Added functionality to trigger snapshots in all databases
-<br>[ x ] Fixed bug in Enq: TM Contention extract in healthcheck
-<h3>v3.11.1</h3>
-<br>[ x ] Removed ROLE management, not needed for this version
-<br>[ x ] Enhanced reports, no longer report first hour as huge numbers when there has been an outage in tool
-<h3>v3.11.2</h3>
-<br>[ x ] Fixed performance issue with new outage filtering in postgres
-<h3>v3.12.0</h3>
-<br>[ x ] Improved logging in MailService, to see when emails are being sent or attempted sent
-<br>[ x ] Split common services into com.accenture.common to better enable reuse across assets
-<br>[ x ] Introduced Environment Types [DEV/TEST/QA/PROD]
-<br>
-<h3>v3.13</h3>
-<br>[ x ] Show current indexing / table stats (DBA_IND_COLUMNS for a table explained)
-<br>[ x ] Bug; CLOBs showing as oracle.sql.CLOB@10fb4d95, will now show max 4000 characters
-<br>
-<h3>v3.14</h3>
-<br>[ x ] Added additional explain plan information, indexing and stats for tables involved in query
-<br>
-<h3>v3.15</h3>
-<br>[ x ] Made version that allows to connect to the Oracle DBs using different protocol than TCP
-<br>
-<h3>v3.16</h3>
-<br>[ x ] Bugfix on Edit Database Type
-<br>
-<h3>v3.17</h3>
-<br>[ x ] Added dbversion to database list on main page
-<br>[ x ] Fixed copyright year cosmetic issue (From 2016 => 2017)
-<br>[ x ] Fixed bug causing program to be blank on 12c
-<br>
-<h3>v3.18</h3>
-<br>[ X ] In explain plan view for a SQL, show owner/name of code object, and line #
-<br>[ X ] DB Summary Page - Show if DB not in archivelog
-<br>[ X ] Add RMAN backup summary status to DB list showing failures/success last two weeks
-<br>[ X ] If V$RMAN_BACKUP_JOB_DETAILS contain failed jobs last two weeks, display warning
-<br>[ X ] if V$RMAN_BACKUP_JOB_DETAILS don’t contain successful INCR BACKUP in last two weeks, display warning
-<br>[ X ] Added SQL explain plan to current SQL in Active sessions view
-<br>[ X ] Cosmetic fixes on RMAN status colors
-<br>[ X ] Added detail button on RMAN status to show output in last two weeks from RMAN jobs
-<br>
-<h3>v3.19</h3>
-<br>[ X ] Make RMAN details toggled to Admin view only as option, default No
-<br>[ X ] Secure RMAN details to check roleAdmin of current user if admin only option set
-<br>[ X ] Indicate cartesian joins on queries with red to help analysis in explain plan
-<br>[ X ] Show # of CPU seconds in last 24h per DB on summary page
-<br>
-<h3>v3.20_Build_452</h3>
-<br>[ X ] Add default DB types with images for the commonly used ERPs and apps (EBS, PSFT, Siebel)
-<br>[ X ] Add OEM/Dev Tools CPU curve on second graph showing overhead CPU
-<br>[ X ] Cosmetic; Improved version numbering for build counting
-<br>
-<h3>v4.0_Build_453</h3>
-<br>[ X ] Add tooltip descriptive text on how to analyze graphs in performance report
-<br>[ X ] Shows disable statements to disable the auto-task subsystem in healthcheck
-<br>[ X ] Cloud reporting (Central multi-tenancy cloud repository across clients) Cannot see realtime or explain plan
-<br>[ X ] Healthcheck also shows queries with full table scans / cartesian joins taking a lot of CPU
-<br>[ X ] Snapshot history of V$SESSION to drill active sessions during a certain hour
-<br>
-<h3>v4.0_Build_454</h3>
-<br>[ X ] About page added with link to newest versions
-<br>[ X ] Show CPU(s) and executions in explain plan
-<br>[ X ] Added generation timestamp on all pages 
-<br>
-<h3>v4.0_Build_455</h3>
-<br>[ X ] Introduce Monitoring Group (With one or more DBs)
-<br>[ X ] Monitoring - Custom rules implemented, allowing you to write your own SQL
-<br>[ X ] Monitoring - Notify DBAs for each DB triggering monitoring alerts
-<br>[ X ] Auto-create APTO_HIST tables
-<br>[ X ] Show sessions and processes allocation vs. max over time
-<br>
-<h3>v4.0_Build_461</h3>
-<br>[ X ] Improved logging around autogeneration of the postgres DB, showing schema structures
-<br>
-<h3>v4.1_Build_462</h3>
-<br>[ X ] SQL-ID editor, to flag and update attributes about a SQL-ID manually / manage aliases tied [ X ] Cosmetic - removed 5 ‘-’ characters on explanatory comment block dividers
-<br>[ X ] Cosmetic - Rearranged columns to show program/line before SQL on main report
-<br>to a specific SQL-ID (Same query has same SQL-ID across databases)
-<br>[ X ] Also shows function-based index expression columns on explain plan (DBA_IND_EXPRESSIONS)
-<br>
-<h3>v4.2_Build_464</h3>
-<br>[ X ] Fixed performance issue with Exadata RAC databases during profiling - Samplecount should now work with 1000 samples again
-<br>
-<h3>v4.2_Build_465</h3>
-<br>[ X ] Active sessions and session history now shows the hostname the session is coming from
-<br>[ X ] Environment Type role based access. Admin can see all environment types.
-<br>[ X ] Show version in footer on all pages, along with current date/time
-<br>[ X ] Monitoring page showing monitoring alert history 
-
