@@ -3,7 +3,7 @@
 
 <h2>APTO Release notes:</h2>
 
-<h3>v4.3_Build_466</h3>
+<h3>v4.3_Build_466 - 2019 JUN 22</h3>
 <br>[ X ] Active sessions now also show the blocking sessions information
 <br>[ X ] Add segment size information for table stats during explain
 <br>[ X ] Updated icons for various options
@@ -13,25 +13,25 @@
 <br>[ X ] Added ETL/ODI series to overall CPU usage graph
 <br>[ X ] Added top 10 modules on CPU to overall performance report
 <br>
-<h3>v4.2_Build_465</h3>
+<h3>v4.2_Build_465 - 2019 JUN 16</h3>
 <br>[ X ] Active sessions and session history now shows the hostname the session is coming from
 <br>[ X ] Environment Type role based access. Admin can see all environment types.
 <br>[ X ] Show version in footer on all pages, along with current date/time
 <br>[ X ] Monitoring page showing monitoring alert history 
-<h3>v4.2_Build_464</h3>
+<h3>v4.2_Build_464 - 2019 JUN 08</h3>
 <br>[ X ] Fixed performance issue with Exadata RAC databases during profiling - Samplecount should now work with 1000 samples again
 <br>
-<h3>v4.1_Build_462</h3>
+<h3>v4.1_Build_462 - 2019 MAY 30</h3>
 <br>[ X ] SQL-ID editor, to flag and update attributes about a SQL-ID manually / manage aliases tied 
 <br>[ X ] Cosmetic - removed 5 ‘-’ characters on explanatory comment block dividers
 <br>[ X ] Cosmetic - Rearranged columns to show program/line before SQL on main report
 <br>to a specific SQL-ID (Same query has same SQL-ID across databases)
 <br>[ X ] Also shows function-based index expression columns on explain plan (DBA_IND_EXPRESSIONS)
 <br>
-<h3>v4.0_Build_461</h3>
+<h3>v4.0_Build_461 - 2018 AUG 09</h3>
 <br>[ X ] Improved logging around autogeneration of the postgres DB, showing schema structures
 <br>
-<h3>v4.0_Build_455</h3>
+<h3>v4.0_Build_455 - 2017 OCT 10</h3>
 <br>[ X ] Introduce Monitoring Group (With one or more DBs)
 <br>[ X ] Monitoring - Custom rules implemented, allowing you to write your own SQL
 <br>[ X ] Monitoring - Notify DBAs for each DB triggering monitoring alerts
