@@ -2,6 +2,17 @@
 <b>This is where the latest release of APTO will reside.</b>
 
 <h2>APTO Release notes:</h2>
+
+<h3>v4.3_Build_466</h3>
+<br>[ X ] Active sessions now also show the blocking sessions information
+<br>[ X ] Add segment size information for table stats during explain
+<br>[ X ] Updated icons for various options
+<br>[ X ] When a monitoring rule throws an exception, log that in the monitoring history
+<br>[ X ] Sort lists in indexReport based on environmentType sorting + alphabetically
+<br>[ X ] Fixed bug in graph for CPU second trend by hour on Dev Tools
+<br>[ X ] Added ETL/ODI series to overall CPU usage graph
+<br>[ X ] Added top 10 modules on CPU to overall performance report
+<br>
 <h3>v4.2_Build_465</h3>
 <br>[ X ] Active sessions and session history now shows the hostname the session is coming from
 <br>[ X ] Environment Type role based access. Admin can see all environment types.
