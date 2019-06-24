@@ -3,7 +3,7 @@
 
 <h2>APTO Release notes:</h2>
 
-<h3>v4.3_Build_466 - 2019 JUN 22</h3>
+<h3>v4.3_Build_467 - 2019 JUN 24</h3>
 <br>[ X ] Active sessions now also show the blocking sessions information
 <br>[ X ] Add segment size information for table stats during explain
 <br>[ X ] Updated icons for various options
