@@ -3,6 +3,10 @@
 
 <h2>APTO Release notes:</h2>
 
+<h3>v4.4_Build_468 - 2019 JUN 29</h3>
+<br>[ X ] Performance Report now shows areas of system running unbound SQL (Lack of cursor sharing causing parse overhead)
+<br>[ X ] Reskinned for company
+
 <h3>v4.3_Build_467 - 2019 JUN 24</h3>
 <br>[ X ] Active sessions now also show the blocking sessions information
 <br>[ X ] Add segment size information for table stats during explain
