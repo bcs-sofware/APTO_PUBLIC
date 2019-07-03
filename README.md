@@ -3,6 +3,10 @@
 
 <h2>APTO Release notes:</h2>
 
+<h3>v4.4_Build_469 - 2019 JUL 02</h3>
+[ X ] Added more debugging in DatabaseService.explainStatement
+[ X ] Fixed bug in retrieving segment sizes on RAC databases in certain situations during explain plan
+
 <h3>v4.4_Build_468 - 2019 JUN 29</h3>
 <br>[ X ] Performance Report now shows areas of system running unbound SQL (Lack of cursor sharing causing parse overhead)
 <br>[ X ] Reskinned for company
