@@ -3,6 +3,11 @@
 
 <h2>APTO Release notes:</h2>
 
+<h3>v4.5_Build_470 - 2019 JUL 07</h3>
+[ X ] Fixed explain plan not showing on RAC if running DBMS_XPLAN in wrong RAC node
+<br>[ X ] Fixed bug in explain plan erroring out of SQL ID no longer in memory
+<br>[ X ] Fixed bug not showing tables with full table scans in health check
+
 <h3>v4.4_Build_469 - 2019 JUL 02</h3>
 [ X ] Added more debugging in DatabaseService.explainStatement
 <br>[ X ] Fixed bug in retrieving segment sizes on RAC databases in certain situations during explain plan
