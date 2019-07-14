@@ -4,9 +4,7 @@
 <h2>APTO Release notes:</h2>
 
 <h3>v4.5_Build_471 - 2019 JUL 14</h3>
-[ X ] Fixed explain plan not showing on RAC if running DBMS_XPLAN in wrong RAC node
-<br>[ X ] Fixed bug in explain plan erroring out of SQL ID no longer in memory
-<br>[ X ] Fixed bug not showing tables with full table scans in health check
+[ X ] Also show service accounts / schemas from unbound SQL in module CPU piechart
 
 <h3>v4.5_Build_470 - 2019 JUL 07</h3>
 [ X ] Fixed explain plan not showing on RAC if running DBMS_XPLAN in wrong RAC node
