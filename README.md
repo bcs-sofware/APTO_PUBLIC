@@ -3,7 +3,7 @@
 
 <h2>APTO Release notes:</h2>
 
-<h3>v4.5_Build_471 - 2019 JUL 14</h3>
+<h3>v4.5_Build_472 - 2019 JUL 14</h3>
 [ X ] Also show service accounts / schemas from unbound SQL in module CPU piechart
 
 <h3>v4.5_Build_470 - 2019 JUL 07</h3>
