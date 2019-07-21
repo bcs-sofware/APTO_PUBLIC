@@ -3,6 +3,12 @@
 
 <h2>APTO Release notes:</h2>
 
+<h3>v4.5_Build_473 - 2019 JUL 20</h3>
+[ X ] Fixed bug with program name not fetched correctly in systems using EBR (Edition Based Redefintition)
+<br>[ X ] Option to limit # of executions that control flagging for unbound SQL (default 1000)
+<br>[ X ] Fixed bug showing too high CPU 24h on databases recently added (First snapshot will not count towards total)
+<br>[ X ] In top per hour listings, color code #1, 2 and 3 in varying degrees of red
+
 <h3>v4.5_Build_472 - 2019 JUL 14</h3>
 [ X ] Also show service accounts / schemas from unbound SQL in module CPU piechart
 
