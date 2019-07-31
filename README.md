@@ -3,6 +3,9 @@
 
 <h2>APTO Release notes:</h2>
 
+<h3>v4.6_Build_474 - 2019 JUL 30</h3>
+[ X ] Also shows DB cache advisor to help optimize memory allocation in instance
+
 <h3>v4.5_Build_473 - 2019 JUL 20</h3>
 [ X ] Fixed bug with program name not fetched correctly in systems using EBR (Edition Based Redefintition)
 <br>[ X ] Option to limit # of executions that control flagging for unbound SQL (default 1000)
