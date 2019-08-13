@@ -6,7 +6,7 @@
 <h3>v4.7_Build_475 - 2019 AUG 13</h3>
 [ X ] Show how long ago the last snapshot was taken on top of performance summary page
 <br>[ X ] Properly purge all APTO tables in Postgres repository
-<br>[ X ] Optimized speed snapshot speed to only pull queries that are consuming a significant amount of resources on an hourly basis
+<br>[ X ] Optimized snapshot speed to only pull queries that are consuming a significant amount of resources on an hourly basis. Expect approximately 10x faster snapshots
 <br>[ X ] More consistently store SQL queries that are being captured in various pages, to minimize the chance of empty explain plan page showing up when clicking on SQL ID buttons.
 
 <h3>v4.6_Build_474 - 2019 JUL 30</h3>
