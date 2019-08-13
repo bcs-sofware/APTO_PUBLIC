@@ -3,7 +3,7 @@
 
 <h2>APTO Release notes:</h2>
 
-<h3>v4.7_Build_476 - 2019 AUG 13</h3>
+<h3>v4.7_Build_477 - 2019 AUG 13</h3>
 [ X ] Show how long ago the last snapshot was taken on top of performance summary page
 <br>[ X ] Properly purge all APTO tables in Postgres repository
 <br>[ X ] Optimized snapshot speed to only pull queries that are consuming a significant amount of resources on an hourly basis. Expect approximately 10x faster snapshots
