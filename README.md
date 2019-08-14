@@ -3,6 +3,10 @@
 
 <h2>APTO Release notes:</h2>
 
+<h3>v4.8_Build_478 - 2019 AUG 14</h3>
+[ X ] Improved performance of health-check, no longer show cartesian join (Use explain)
+<br>[ X ] Now correctly maps queries to the user running them, not the schema parsing them
+
 <h3>v4.7_Build_477 - 2019 AUG 13</h3>
 [ X ] Show how long ago the last snapshot was taken on top of performance summary page
 <br>[ X ] Properly purge all APTO tables in Postgres repository
