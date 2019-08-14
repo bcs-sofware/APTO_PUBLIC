@@ -3,7 +3,7 @@
 
 <h2>APTO Release notes:</h2>
 
-<h3>v4.8_Build_478 - 2019 AUG 14</h3>
+<h3>v4.8_Build_479 - 2019 AUG 14</h3>
 [ X ] Improved performance of health-check, no longer show cartesian join (Use explain)
 <br>[ X ] Now correctly maps queries to the user running them, not the schema parsing them
 
