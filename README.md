@@ -7,6 +7,7 @@
 [ X ] Healthcheck now isolates objects that need to be reorganized due to high write contention (enq: TX - allocate ITL entry)
 <br>[ X ] Ability to drill down on sysevent to isolate SQLs causing certain event waits
 <br>[ X ] Show top 15 sysevent waits in main page with drilldown capability to find underlying SQLs
+<br>[ X ] Improved explain plan to not show duplicate plans in a RAC DB
 
 <h3>v4.8_Build_479 - 2019 AUG 14</h3>
 [ X ] Improved performance of health-check, no longer show cartesian join (Use explain)
