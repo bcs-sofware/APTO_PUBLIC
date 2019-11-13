@@ -3,6 +3,9 @@
 
 <h2>APTO Release notes:</h2>
 
+<h3>v4.9_Build_482 - 2019 NOV 13</h3>
+[ X ] Fixed bug that would sometimes not show the tables/indexes for a explained query in a RAC DB
+
 <h3>v4.9_Build_481 - 2019 AUG 17</h3>
 [ X ] Healthcheck now isolates objects that need to be reorganized due to high write contention (enq: TX - allocate ITL entry)
 <br>[ X ] Ability to drill down on sysevent to isolate SQLs causing certain event waits
