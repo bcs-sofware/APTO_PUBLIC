@@ -3,6 +3,10 @@
 
 <h2>APTO Release notes:</h2>
 
+<h3>v4.9_Build_483 - 2019 DEC 11</h3>
+[ X ] Fixed bug that skewed/misreported 24h CPU and only accounted for one of the RAC nodes in RAC cluster
+[ X ] Increase retention of lower-impact queries to closer align hourly CPU usage on SQL rather than just accounting for the highest impacting queries.
+
 <h3>v4.9_Build_482 - 2019 NOV 13</h3>
 [ X ] Fixed bug that would sometimes not show the tables/indexes for a explained query in a RAC DB
 
