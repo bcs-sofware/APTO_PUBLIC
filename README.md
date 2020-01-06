@@ -3,6 +3,9 @@
 
 <h2>APTO Release notes:</h2>
 
+<h3>v4.9_Build_484 - 2020 JAN 6</h3>
+[ X ] Fixed bug in purge causing purge job to fail on a daily basis - Leading to growing repository size over time
+
 <h3>v4.9_Build_483 - 2019 DEC 11</h3>
 [ X ] Fixed bug that skewed/misreported 24h CPU and only accounted for one of the RAC nodes in RAC cluster
 [ X ] Increase retention of lower-impact queries to closer align hourly CPU usage on SQL rather than just accounting for the highest impacting queries.
