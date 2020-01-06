@@ -3,7 +3,7 @@
 
 <h2>APTO Release notes:</h2>
 
-<h3>v4.9_Build_484 - 2020 JAN 6</h3>
+<h3>v4.10_Build_485 - 2020 JAN 6</h3>
 [ X ] Fixed bug in purge causing purge job to fail on a daily basis - Leading to growing repository size over time
 
 <h3>v4.9_Build_483 - 2019 DEC 11</h3>
