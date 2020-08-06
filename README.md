@@ -3,6 +3,9 @@
 
 <h2>APTO Release notes:</h2>
 
+<h3>v4.11_Build_489 - 2020 AUG 6</h3>
+[ X ] Added local logging to APTO
+
 <h3>v4.10_Build_485 - 2020 JAN 6</h3>
 [ X ] Fixed bug in purge causing purge job to fail on a daily basis - Leading to growing repository size over time
 
