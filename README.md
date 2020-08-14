@@ -3,6 +3,13 @@
 
 <h2>APTO Release notes:</h2>
 
+
+<h3>v5.00_Build_490 - 2020 AUG 14</h3>
+[ X ] Beta release: Better error handling on database snapshots
+[ X ] Snapshot fetching for PostgreSQL
+[ X ] Snapshot fetching for MS SQL Server
+[ X ] Introduced database products (PostgreSQL/MSSQL/Oracle) tied to DB Types
+
 <h3>v4.11_Build_489 - 2020 AUG 6</h3>
 [ X ] Added local logging to APTO
 
